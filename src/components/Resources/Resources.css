@@ -1,0 +1,17 @@
+.resource-row {
+    display: flex;
+}
+
+.resource-icon {
+    width: 25%; 
+}
+
+.resource-amount {
+    border: 3px solid red;
+    font-size: 18px;
+    font-weight: bold;
+    width: 75%; 
+    
+}
+
+

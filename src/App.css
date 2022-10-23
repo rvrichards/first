@@ -1,63 +1,54 @@
+/* * {
+  border: 1px solid #123;
+} */
+
 .App {
   /* text-align: center; */
   display: grid;
-  grid-template-areas: "menu head head coin"
-                       "menu main main coin"
-                       "menu main main empty"
-                       "account account foot foot";
+  grid-template-areas: "menu head head items"
+                       "menu main main items"
+                       "menu main main ."
+                       "acct acct . .";
   grid-template-rows: 1fr 2fr 2fr 1fr;
   grid-template-columns: 1fr 2fr 2fr 1fr;
-                       
+  grid-gap: 20px;
+
+  width: 1000px;
+  height: 600px;
+
 }
-
-
-.App-header {
-  background-color: #282c34;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 
 .main {
   grid-area: main;
-  background-color: darkorange;
+  font-size:xx-large;
 }
 
 .menu {
   grid-area: menu;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
-.head {
+.header {
   grid-area: head;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 
-.foot {
+.footer {
   grid-area: foot;
-  background-color: darkviolet;
+  /* background-color: darkviolet; */
 }
 
-.coin {
-  grid-area: coin;
-  background-color: chocolate;
+.resources {
+  grid-area: items;
+  /* background-color: chocolate; */
 }
 
 .account {
-  grid-area: account;
-  background-color: olive;
+  grid-area: acct;
+  /* background-color: olive; */
 }
 
 .empty {
   grid-area: empty;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
