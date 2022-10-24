@@ -5,7 +5,7 @@ import './Menu.css';
 
 function Menu(props) {
     return (
-        <div id="sidebar">
+        <div class="sidebar">
             <div className="menu-button"> 
                 <span></span>
                 <span></span>

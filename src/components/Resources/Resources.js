@@ -7,15 +7,16 @@ import LogsIcon from './logs-icon.jpg';
 function Resources(props) {
 
   return (
-    <div>
+    <div className="resource">
+       <div className="resource-row">
+          <img src={LogsIcon} alt="Log icon" width="30px" className='resource-icon' />
+          <div className='resource-amount'>420</div>
+      </div>
       <div className="resource-row">
-          <span className='resource-icon'><img src={GoldIcon}  width="30px" /></span>
-          <span className='resource-amount'>420</span>
+          <img src={GoldIcon}  alt="Gold Icon" width="30px" className='resource-icon' />
+          <div className='resource-amount'>42</div>
       </div>
-      <div>
-          <span className='resource-icon'> <img src={LogsIcon} width="30px"  /></span>
-          <span className='resource-amount'>42</span>
-      </div>
+
     </div>
   );
 }

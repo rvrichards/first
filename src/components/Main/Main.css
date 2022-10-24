@@ -1,11 +1,14 @@
 .main {
     border: 3px solid #123;
+    /* opacity: 0.77; */
     border-radius: 10px;
     background-color: #F0B96A;
   }
 
-  .main-header {
+  .main-menu {
+    margin-top: 10px;
     font-size: 25;
     color: white;
     font-weight: bold;
+    text-align: center;
   }

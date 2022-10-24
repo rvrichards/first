@@ -5,7 +5,7 @@ import './Main.css';
 
 function Main(props) {
     return (
-        <div className="main-header">Genesis</div>
+        <div className="main-menu">Genesis</div>
         );
     }
 

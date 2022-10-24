@@ -1,22 +1,27 @@
+.menu {
+    margin-top: 44px;
+}
 .sidebar{
-    position: fixed;
-    width: 100px;
-    height: 100%;
-    transition: all .69s ease;
+    background-color: #f0b96a;
+    border: 1px solid black; 
+    margin-top: 30px;
+    border-radius: 50px;
 }
 
-#sidebar li {
+.sidebar li {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     padding: 5px;
     text-align: center;
     border-radius: 25px;
+    margin: 5px 10px;
+    background-color: #f8daaf;
 }
 
 
-#sidebar.active {
+/* #sidebar.active {
     left: 0;
-}
+} */
 
 ul { 
     list-style: none; 

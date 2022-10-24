@@ -1,54 +1,36 @@
-/* * {
-  border: 1px solid #123;
-} */
-
 .App {
   /* text-align: center; */
   display: grid;
-  grid-template-areas: "menu head head items"
-                       "menu main main items"
-                       "menu main main ."
-                       "acct acct . .";
-  grid-template-rows: 1fr 2fr 2fr 1fr;
-  grid-template-columns: 1fr 2fr 2fr 1fr;
-  grid-gap: 20px;
-
-  width: 1000px;
-  height: 600px;
-
+  grid-template-areas: "menu head  head head head   items"
+                       "menu pLeft main main pRight items"
+                       "menu pLeft main main pRight ."
+                       "menu .     .    .    .      ."
+                       "acct acct  acct acct acct   acct";
+  grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
+  gap: 20px;
+  width: 1200px;
+  height: 800px;
 }
-
 .main {
   grid-area: main;
   font-size:xx-large;
 }
-
 .menu {
   grid-area: menu;
-  /* background-color: aqua; */
 }
-
 .header {
   grid-area: head;
-  /* background-color: chartreuse; */
 }
-
-.footer {
-  grid-area: foot;
-  /* background-color: darkviolet; */
-}
-
 .resources {
   grid-area: items;
-  /* background-color: chocolate; */
 }
-
 .account {
   grid-area: acct;
-  /* background-color: olive; */
 }
-
-.empty {
-  grid-area: empty;
-  /* background-color: yellow; */
+.pull-left {
+  grid-area: pLeft;
+}
+.pull-right {
+  grid-area: pRight;
 }
