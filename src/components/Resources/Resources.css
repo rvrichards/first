@@ -10,6 +10,8 @@
     border-radius: 50%;
     border: 1px solid black;
     margin-right: -5px;
+    background-color: #e5f9f8;
+    z-index: 1;
 }
 
 .resource-amount {
@@ -17,8 +19,7 @@
     border-left: 0;
     border-radius: 0% 10px 10px 0%;
     margin: auto;
-    background-color: white;
-    opacity: 50%;
+    background-color: #e5f9f8;
     font-size: 18px;
     font-weight: bold;
     width: 75%; 
