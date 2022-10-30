@@ -1,11 +1,11 @@
-.resource {
+.token {
     margin-top: 30px;
 }
-.resource-row {
+.token-row {
     display: flex;
 }
 
-.resource-icon {
+.token-icon {
     height: 25%; 
     border-radius: 50%;
     border: 1px solid black;
@@ -14,7 +14,7 @@
     z-index: 1;
 }
 
-.resource-amount {
+.token-amount {
     border: 1px solid black;
     border-left: 0;
     border-radius: 0% 10px 10px 0%;

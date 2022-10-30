@@ -1,17 +1,17 @@
 import React from 'react'; 
 
-import './Menu.css';
+import './Side.css';
 
 
-function Menu(props) {
+function Side(props) {
     return (
-        <div class="sidebar">
-            <div className="menu-button"> 
+        <div className="sidebar">
+            <div className="side-button"> 
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <ul className="menu-list">
+            <ul className="side-list">
                 <li>Mine</li>
                 <li>NFTs</li>
                 <li>Villager</li>
@@ -23,4 +23,4 @@ function Menu(props) {
         );
     }
 
-export default Menu;
+export default Side;

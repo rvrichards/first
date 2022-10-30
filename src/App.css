@@ -1,23 +1,25 @@
 .App {
   /* text-align: center; */
   display: grid;
-  grid-template-areas: "menu head  head head head   items"
-                       "menu pLeft main main pRight items"
-                       "menu pLeft main main pRight ."
-                       "menu .     .    .    .      ."
+  grid-template-areas: "side head  head head head   items"
+                       "side pLeft main main pRight items"
+                       "side pLeft main main pRight ."
+                       /* "side .     .    .    .      ." */
                        "acct acct  acct acct acct   acct";
-  grid-template-rows: 1fr 2fr 2fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr;
+  /* grid-template-rows: .5fr 2fr 1fr .5fr 1fr; */
+  /* grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr; */
+  grid-template-rows: repeat(0, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(200px , 1fr)); */
+  grid-template-columns: repeat(0 , 1fr);
   gap: 20px;
-  width: 1200px;
-  height: 800px;
+  /* width: 1200px;
+  height: 800px; */
 }
 .main {
   grid-area: main;
-  font-size:xx-large;
 }
-.menu {
-  grid-area: menu;
+.side {
+  grid-area: side;
 }
 .header {
   grid-area: head;
@@ -34,3 +36,4 @@
 .pull-right {
   grid-area: pRight;
 }
+

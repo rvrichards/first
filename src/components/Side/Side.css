@@ -1,4 +1,4 @@
-.menu {
+.side {
     margin-top: 44px;
 }
 .sidebar{
@@ -27,7 +27,7 @@ ul {
     list-style: none; 
 }
 
-.menu-list {
+.side-list {
     padding-right: 10px;
     padding-left: 5px;
 }
