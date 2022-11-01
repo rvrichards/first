@@ -1,0 +1,30 @@
+.main-item {
+    width: 200px;
+    height: 300px;
+    margin: 5px;
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+.main-image {
+    height: 180px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+.button2 {
+    /* cursor: pointer; */
+    /* margin:  0 auto; */
+    /* border: 5px solid red; */
+    padding: 2px; 
+    /* min-width: 64px; */
+
+  }
