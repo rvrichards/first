@@ -1,3 +1,25 @@
-.pull-left {
+.pullLeft {
     border: 1px dashed #123;
+}
+
+.pull-left {
+    background-color: #f0b96a;
+    border: 1px solid black; 
+    margin-top: 30px;
+    margin-left: 55px;
+    border-radius: 15px;
+}
+
+.pull-left-list li {
+    color: white;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 5px 10px;
+    background-color: #f8daaf;
+}
+
+.pull-left-list {
+    padding-left: 5px;
 }

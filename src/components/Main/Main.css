@@ -7,16 +7,18 @@
 }
 
 .main-scroll {
-  height: 450px;
+  height: 440px;
   width: 675px;
   overflow-y: scroll;
   overflow-x: hidden;
+  scrollbar-color: black white;
+  scrollbar-width: auto;
 }
 
 .main-container {
   width: 100%;
   height: 100%;
-  background-color: F0B96A;
+  background-color: f0b96a;  
   display: flex;
   margin: 0px 15px;
   flex-direction: row;

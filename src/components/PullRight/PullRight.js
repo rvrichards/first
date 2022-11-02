@@ -6,7 +6,7 @@ import './PullRight.css';
 function PullRight(props) {
 
   return (
-    <div className="pull-right">
+    <div className="pullRight">
         <h2>PullRight</h2>
     </div>
   );

@@ -6,12 +6,12 @@
                        "side pLeft main main pRight ."
                        /* "side .     .    .    .      ." */
                        "acct acct  acct acct acct   acct";
-  /* grid-template-rows: .5fr 2fr 1fr .5fr 1fr; */
+  grid-template-rows: 50px 2fr 100px 125px;
   /* grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr; */
-  grid-template-rows: repeat(0, 1fr);
+  /* grid-template-rows: repeat(0, 1fr); */
   /* grid-template-columns: repeat(auto-fit, minmax(200px , 1fr)); */
   grid-template-columns: repeat(0 , 1fr);
-  gap: 20px;
+  gap: 20px 0px;
   /* width: 1200px;
   height: 800px; */
 }
@@ -31,10 +31,14 @@
 .account {
   grid-area: acct;
 }
-.pull-left {
+.pullLeft {
   grid-area: pLeft;
 }
-.pull-right {
+.pullRight {
   grid-area: pRight;
 }
 
+
+ul { 
+  list-style: none; 
+}

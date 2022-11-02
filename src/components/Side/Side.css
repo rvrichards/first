@@ -1,10 +1,12 @@
 .side {
     margin-top: 44px;
 }
+
 .sidebar{
     background-color: #f0b96a;
     border: 1px solid black; 
     margin-top: 30px;
+    margin-left: 0px;
     border-radius: 50px;
 }
 
@@ -16,15 +18,6 @@
     border-radius: 25px;
     margin: 5px 10px;
     background-color: #f8daaf;
-}
-
-
-/* #sidebar.active {
-    left: 0;
-} */
-
-ul { 
-    list-style: none; 
 }
 
 .side-list {

@@ -20,7 +20,7 @@ function Side(props) {
             </ul>
         </div>
         
-        );
+        ); 
     }
 
 export default Side;

@@ -7,9 +7,9 @@ function MainItem(props) {
 
   return (
     <div className="main-item">
-      <h3>{props.title}</h3>
-      <img src={Villager}  className="main-image" main-alt="Villager Image" />   
-      <button className="button2" >Deal</button>
+      <div className="main-image-title">{props.title}</div>
+      <img src={Villager}  className="main-image" alt="{Villager}" />   
+      <div className="main-buttonline"><button className="main-button" >Deal</button></div>
     </div>
   );
 }

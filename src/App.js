@@ -16,8 +16,8 @@ function App() {
       <div className="account">Account <Account /></div>
       <div className="main"><Main /></div>
       <div className="side"> <Side /></div>
-      <div className="pull-right"> <PullRight /></div>
-      <div className="pull-left"> <PullLeft /></div>
+      <div className="pullRight"> <PullRight /></div>
+      <div className="pullLeft"> <PullLeft /></div>
       <div className="header"><Header /></div>
       <div className="token"><Tokens /></div>
     </div>
