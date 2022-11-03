@@ -1,16 +1,17 @@
 .App {
   /* text-align: center; */
   display: grid;
-  grid-template-areas: "side head  head head head   items"
-                       "side pLeft main main pRight items"
-                       "side pLeft main main pRight ."
-                       /* "side .     .    .    .      ." */
-                       "acct acct  acct acct acct   acct";
+  grid-template-areas: "side head  head head   items"
+                       "side pLeft main pRight items"
+                       "side pLeft main pRight ."
+                       /* "side .    .    .      ." */
+                       "acct acct  acct acct   acct";
   grid-template-rows: 50px 2fr 100px 125px;
   /* grid-template-columns: 1fr 1fr 2fr 2fr 1fr 1fr; */
   /* grid-template-rows: repeat(0, 1fr); */
   /* grid-template-columns: repeat(auto-fit, minmax(200px , 1fr)); */
-  grid-template-columns: repeat(0 , 1fr);
+  /* grid-template-columns: repeat(0 , 1fr); */
+  grid-template-columns: 1fr 1fr 500px 1fr 1fr;
   gap: 20px 0px;
   /* width: 1200px;
   height: 800px; */
