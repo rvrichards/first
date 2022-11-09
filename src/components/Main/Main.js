@@ -14,11 +14,11 @@ function Main(props) {
                 <div className="main-container">
                     <MenuItem title="First One"/>
                     <MenuItem title="Middle One"/>
+                    <MenuItem title="Middle One"/>
+                    <MenuItem title="Middle One"/>
+                    <MenuItem title="Middle One"/>
+                    <MenuItem title="Penultimate"/>
                     <MenuItem title="Last One"/>
-                    <MenuItem title="New Line1"/>
-                    {/* <MenuItem title="New Line2"/>
-                    <MenuItem title="New Line3"/>
-                    <MenuItem title="New Line4"/> */}
                 </div>
 
             </div>

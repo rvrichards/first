@@ -1,13 +1,15 @@
 .main-item {
-    width: 200px;
-    height: 250px;
-    margin: 5px;
+    width: 150px;
+    height: 200px;
+    margin: 2px;
     border: 2px solid red;
     box-sizing: border-box;
 }
 
 .main-image {
-    height: 180px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
 }
 
 .main-image-title {
@@ -20,7 +22,7 @@ p {
     font-size: 16px;
 }
 
-.main-buttonLine {
+.main-button-line {
     text-align: center;
 }
 

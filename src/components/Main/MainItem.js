@@ -8,8 +8,8 @@ function MainItem(props) {
   return (
     <div className="main-item">
       <div className="main-image-title">{props.title}</div>
-      <img src={Villager}  className="main-image" alt="{Villager}" />   
-      <div className="main-buttonline"><button className="main-button" >Deal</button></div>
+      <div className="main-image"><img src={Villager} alt="{Villager}" /></div>   
+      <div className="main-button-line"><button className="main-button" >Select</button></div>
     </div>
   );
 }

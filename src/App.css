@@ -18,7 +18,7 @@
 }
 .main {
   grid-area: main;
-  max-width:  675px;
+  max-width:  500px;
 }
 .side {
   grid-area: side;

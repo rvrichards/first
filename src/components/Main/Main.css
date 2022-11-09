@@ -8,8 +8,8 @@
 
 .main-scroll {
   height: 440px;
-  width: 675px;
-  overflow-y: scroll;
+  width: 500px;
+  overflow-y: auto;
   overflow-x: hidden;
   scrollbar-color: black white;
   scrollbar-width: auto;
