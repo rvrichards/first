@@ -4,6 +4,14 @@ import './Side.css';
 
 
 function Side(props) {
+    const clickLands = () => {
+        console.log("Clicked Lands.");
+    };
+    function clickVillager() {
+        console.log("Clicked on Villager.");
+    };
+
+
     return (
         <div className="sidebar">
             <div className="side-button"> 
@@ -14,9 +22,9 @@ function Side(props) {
             <ul className="side-list">
                 <li>Mine</li>
                 <li>NFTs</li>
-                <li>Villager</li>
+                <li onClick={clickVillager}>Villager</li>
                 <li>Craft</li>
-                <li>Lands</li>
+                <li onClick={clickLands}>Lands</li>
             </ul>
         </div>
         
